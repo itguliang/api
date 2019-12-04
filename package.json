@@ -1,5 +1,5 @@
 {
-  "name": "blog-server",
+  "name": "api",
   "version": "1.0.0",
   "description": "后台接口",
   "main": "index.js",

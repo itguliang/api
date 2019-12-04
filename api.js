@@ -149,7 +149,8 @@ router.post('/api/blog/create', (req, res) => {
     let newBlog = new models.Blog({
         title: req.body.title,
         time: new Date(),
-        content: req.body.content
+        content: req.body.content,
+        desc: req.body.desc
     });
     // 保存数据newAccount数据进mongoDB
     newBlog.save((err, data) => {
